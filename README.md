@@ -34,3 +34,7 @@ You can modify main.py to:
 - Change number of atoms (e.g., N = 38)
 - Adjust number of optimization steps
 - Enable or disable visualizat
+
+- ## Download results:
+- [Google Drive Folder](https://drive.google.com/drive/folders/1DTMo7RLcVHj8YP78-d_yzcTuiwmO0XU3?usp=sharing)
+
