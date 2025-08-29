@@ -1,10 +1,10 @@
 Project Structure: 
 molecular_simulation_code/ 
-optimizer.py     # Core optimization logic (LJ potential + basin-hopping)
-visualization.py # Cluster plotting, energy evolution, animation
-io_utils.py      #XYZ saving, trajectory output 
-main.py          # Run script to launch optimization and generate results 
-outputs/         # Saved figures, XYZ files, GIF animations    
+optimizer.py                 # Core optimization logic (LJ potential + basin-hopping)
+visualization.py             # Cluster plotting, energy evolution, animation
+io_utils.py                  # XYZ saving, trajectory output 
+main.py                      # Run script to launch optimization and generate results 
+outputs/                     # Saved figures, XYZ files, GIF animations    
         
 Python package dependencies: 
 numpy 
@@ -23,10 +23,10 @@ This will:
 - Optimize the LJ cluster (default: LJ38)
 - Save final XYZ structure 
 3. Output Files (saved in outputs/):
-- LJ38_best_energy.png    Energy vs. Step plot 
-- LJ38_final.xyz          Final optimized coordinates
-- LJ38_trajectory.xyz     Trajectory of accepted steps
-- LJ38_animation.gif      Structure evolution animation   
+- LJ38_best_energy.png               (Energy vs. Step plot) 
+- LJ38_final.xyz                     (Final optimized coordinates)
+- LJ38_trajectory.xyz                (Trajectory of accepted steps)
+- LJ38_animation.gif                 (Structure evolution animation)   
 
 Configuration: 
 You can modify main.py to: 
